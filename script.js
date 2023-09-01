@@ -7,10 +7,10 @@ function toggleMode() {
     const img = document.querySelector("#profile img")
 
     if (html.classList.contains('light')) {
-        img.setAttribute('src', './assets/avatar-light.png')
-        img.setAttribute('alt', "cara aleatório com óculos escuros")
+        img.setAttribute('src', './assets/avatar-light.jpg')
+        img.setAttribute('alt', "Imagem da Akko, do anime Little Witch Academia, com uma feição deprimida.")
     } else {
-        img.setAttribute('src', './assets/avatar.png')
-        img.setAttribute('alt', "cara aleatório com óculos")
+        img.setAttribute('src', './assets/avatar.jpg')
+        img.setAttribute('alt', "Imagem da Akko, do anime Little Witch Academia, com as maõs juntas ao peito, demonstrando felicidade.")
     }
 }
