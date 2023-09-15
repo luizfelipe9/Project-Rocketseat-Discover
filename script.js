@@ -11,6 +11,6 @@ function toggleMode() {
         img.setAttribute('alt', "Imagem da Akko, do anime Little Witch Academia, com uma feição deprimida.")
     } else {
         img.setAttribute('src', './assets/avatar.jpg')
-        img.setAttribute('alt', "Imagem da Akko, do anime Little Witch Academia, com as maõs juntas ao peito, demonstrando felicidade.")
+        img.setAttribute('alt', "Imagem da Akko, do anime Little Witch Academia, com as mãos juntas ao peito, demonstrando felicidade.")
     }
 }
